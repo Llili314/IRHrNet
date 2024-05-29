@@ -1,7 +1,7 @@
-## IRHrNet
+# IRHrNet
 "This repo is used for the paper "Illumination variation-resistant network for heart rate measurement by exploring RGB and MSR spaces", which is submitted in IEEE TIM."
 
-## Requirements
+# Requirements
 pytorch=1.11.0 +
 python=3.9 +
 torchvision
@@ -9,8 +9,8 @@ numpy
 opencv-python
 anaconda (suggeted)
 
-## Configuration
-# Create your virtual environment using anaconda
+# Configuration
+#Create your virtual environment using anaconda
 conda create -n IRHrNet python=3.9
 
 # Activate your virtual environment
