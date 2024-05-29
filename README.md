@@ -24,18 +24,14 @@ conda activate IRHrNet
 
 Replicate our method on heart rate estimation from facial videos by modifying or running the following scripts：
 
-net_dual.py # CET & MDEF combination module
+RMformer.py # Defined module
 
-fusion_strategy.py # defination of MDEF
-
-args_fusion_dual.py # experimental parameters setting
+args_fusion_128.py # experimental parameters setting
 
 utils.py # refers to utility functions
 
-train_rppg.sh # slurm train shell
+train_128.sh # slurm train shell
 
-train_rppg.py # train CET and MDEF modules to extract the rPPG signals 
+train_128.py # train modules to extract the rPPG signals 
 
-train_hr.py # train FEE module cascaded with CET and MDEF modules 
-
-test.py  # test rppg and hr; In order to test the trained model, the model can be downloaded from the Baidu disk (Link: https://pan.baidu.com/s/1JJCwS0WrJ_55hM63Unni5g, Code: 52fz)
+test_hr_128.py  # test rppg and hr;
