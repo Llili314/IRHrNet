@@ -22,7 +22,8 @@ git clone https://github.com/Llili314/IRHrNet
 Remember to activate your virtual enviroment before running our code：
 conda activate IRHrNet
 
-# Replicate our method on heart rate estimation from facial videos by modifying or running the following scripts
+Replicate our method on heart rate estimation from facial videos by modifying or running the following scripts：
+
 net_dual.py # CET & MDEF combination module
 fusion_strategy.py # defination of MDEF
 args_fusion_dual.py # experimental parameters setting
