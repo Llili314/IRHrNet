@@ -16,8 +16,8 @@ conda create -n IRHrNet python=3.9
 Activate your virtual environment：
 conda activate IRHrNet
 
-Clone our code
-git clone https://github.com/Llili314/IRHrNet：
+Clone our code：
+git clone https://github.com/Llili314/IRHrNet
 
 Remember to activate your virtual enviroment before running our code：
 conda activate IRHrNet
