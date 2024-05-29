@@ -10,16 +10,16 @@ opencv-python
 anaconda (suggeted)
 
 # Configuration
-Create your virtual environment using anaconda
+Create your virtual environment using anaconda：
 conda create -n IRHrNet python=3.9
 
-Activate your virtual environment
+Activate your virtual environment：
 conda activate IRHrNet
 
 Clone our code
-git clone https://github.com/Llili314/IRHrNet
+git clone https://github.com/Llili314/IRHrNet：
 
-Remember to activate your virtual enviroment before running our code
+Remember to activate your virtual enviroment before running our code：
 conda activate IRHrNet
 
 # Replicate our method on heart rate estimation from facial videos by modifying or running the following scripts
